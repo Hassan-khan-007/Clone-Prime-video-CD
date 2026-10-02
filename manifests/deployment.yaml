@@ -15,7 +15,7 @@ spec:
       containers:
       - name: prime-video
         image: hassankhan786/prime-video-clone:77
-        imagePullPolicy: Never
+        imagePullPolicy: Always
         ports:
         - containerPort: 3000          
         
